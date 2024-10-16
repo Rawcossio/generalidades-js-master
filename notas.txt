@@ -33,5 +33,35 @@ Diferente estricto:!==
 Comparador simple:==
 
 
+Estrcuturas de repetición: Bucles-ciclos o loops
+for, while y Do.while
+for ->Estructura de repetición que se ejecuta n cantidad de veces, donde se conoce el valor de numero de n
+while y do-while->Estructura de repetición que se ejecuta n cantidad de veces, donde se puede cocoecer o no el valor de n 
 
+TODOS los ciclos deben tener tres elementos 
+1-Variable de control
+2-Control de la variable (condicional)
+3-Incremento de la varible de control
 
+Acumuladores y contadores 
+Contador:Variable o elemento auxiliar que cuenta de n en n, según la cantidad de veces que se ejecuta en un codigo
+-> index++ == index=index+1 ->estas formas son iguales para aplicar un contador
+Acumulador:Variable o elemento auxiliar que acumula o suma un valor especifico por cada contador.El acumulador siempre se 
+define por fuera del ciclo
+->variable+=otroValor 
+
+while:(Por defecto sera un ciclo infinito)
+la variable de control se define por fuera del ciclo
+Se define la comdicion dentro del ciclo
+Se hace el control dentro del ciclo
+
+Todo ciclo For se puede convertir a un ciclo while o Do while
+
+while y Do While Diferencias
+1-Se escriben diferente 
+2-El While se ejecuta unicamente si la condicion es verdadera, primero pregunta y luego ejecuta. El ciclo Do while primero ejecuta y luego pregunta, garantiza la ejecución del codigo al menos 1 vez 
+
+Diferencias entre var, let y const 
+Scope o alacance de la variable:(local o global) 
+var->Son variables globales
+lat y const->Globales y/o locales(depende de su definición)
