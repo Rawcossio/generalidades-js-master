@@ -65,3 +65,20 @@ Diferencias entre var, let y const
 Scope o alacance de la variable:(local o global) 
 var->Son variables globales
 lat y const->Globales y/o locales(depende de su definición)
+
+Funciones de JavaScript -> Es la encapsulación de código que me permite reutilzarlo donde quiera y cuando quiera, solo con una única definición
+
+Funciones regulares/tradicionales
+    Funciones declarativas
+        -Una función declarativa tiene un alcance global (hoisting de todo el documento), es decir, que se mueven a su contexto global
+    Funciones de expresión
+        -Una función de expresion tiene un alcance local, es decir, que su contexto aplica solo despues de su definición
+Funciones flecha
+    Funciones de expresión
+Funciones anónimas
+argumentos: son los valores reales que se envian en el llamado de la funcion
+parametros: son los placeholders o variables temporales que se invocan en la definicion de la funcion 
+
+Nota*:Toda funcion puede retornar contenido 
+
+Nota*: Las funciones regulares y las funciones flecha siempre trabajan en dos tiempos o partes: definición y la invocación

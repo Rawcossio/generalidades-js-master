@@ -145,9 +145,47 @@
 // }while(index<=5)
 // console.log('su salario promedio es: '+(sumaSalario/(index-1)))
 
-var nombre='Raul Cossio'
-let edad=31
+//var nombre='Raul Cossio'
+//let edad=31
+// if(edad>=18){
+//     var salario=900000
+// }
+// console.log(nombre+'tiene un salario de'+salario)
+
+/* Funciones Declarativas */
+// funcionDeclarativa()
+// function funcionDeclarativa() {
+//     let nombre = 'Jaime Zapata'
+//     let edad = 33
+//     console.log('Soy ' + nombre + ', tengo ' + edad + ' y estoy aprendiendo funciones declarativas')
+// }
+// funcionDeclarativa()
+
+// /* Función de expresión */
+// funcionDeExpresion()
+// let funcionDeExpresion = function () {
+//     let nombre = 'Jaime Zapata'
+//     let edad = 33
+//     console.log('Soy ' + nombre + ', tengo ' + edad + ' y estoy aprendiendo funciones de expresión')
+// }
+// funcionDeExpresion()
+
+// function calcularSalario(valorHora,cantidadHoras){
+//     console.log('El salario es:'+(valorHora*cantidadHoras))
+// }
+// calcularSalario(15000,100)
+// calcularSalario(10000,80)
+// calcularSalario(450000,110)
+
+// let edad=18
+// if(edad>=18){
+//     var salario=100000
+// }
+// console.log('el salario es: '+salario)
+function calcularSalario(){
+let edad=18
 if(edad>=18){
-    var salario=900000
+    return salario=100000
 }
-console.log(nombre+'tiene un salario de'+salario)
+}
+console.log(calcularSalario())
